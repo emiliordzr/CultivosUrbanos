@@ -14,6 +14,9 @@
 		06E4FAE22BC862CC00C7BD4E /* CultivosUrbanosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E4FAE12BC862CC00C7BD4E /* CultivosUrbanosTests.swift */; };
 		06E4FAEC2BC862CC00C7BD4E /* CultivosUrbanosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E4FAEB2BC862CC00C7BD4E /* CultivosUrbanosUITests.swift */; };
 		06E4FAEE2BC862CC00C7BD4E /* CultivosUrbanosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E4FAED2BC862CC00C7BD4E /* CultivosUrbanosUITestsLaunchTests.swift */; };
+		06E4FAFD2BC86C6800C7BD4E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E4FAFC2BC86C6800C7BD4E /* LoginView.swift */; };
+		06E4FAFF2BC86DC700C7BD4E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E4FAFE2BC86DC700C7BD4E /* RegistrationView.swift */; };
+		06E4FB012BC86EF100C7BD4E /* MiCultivoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E4FB002BC86EF100C7BD4E /* MiCultivoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		06E4FAE72BC862CC00C7BD4E /* CultivosUrbanosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CultivosUrbanosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E4FAEB2BC862CC00C7BD4E /* CultivosUrbanosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivosUrbanosUITests.swift; sourceTree = "<group>"; };
 		06E4FAED2BC862CC00C7BD4E /* CultivosUrbanosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultivosUrbanosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06E4FAFC2BC86C6800C7BD4E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		06E4FAFE2BC86DC700C7BD4E /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		06E4FB002BC86EF100C7BD4E /* MiCultivoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCultivoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				06E4FAD02BC862CB00C7BD4E /* CultivosUrbanosApp.swift */,
+				06E4FAFE2BC86DC700C7BD4E /* RegistrationView.swift */,
+				06E4FB002BC86EF100C7BD4E /* MiCultivoView.swift */,
 				06E4FAD22BC862CB00C7BD4E /* ContentView.swift */,
 				06E4FAD42BC862CC00C7BD4E /* Assets.xcassets */,
 				06E4FAD62BC862CC00C7BD4E /* Preview Content */,
+				06E4FAFC2BC86C6800C7BD4E /* LoginView.swift */,
 			);
 			path = CultivosUrbanos;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E4FB012BC86EF100C7BD4E /* MiCultivoView.swift in Sources */,
+				06E4FAFD2BC86C6800C7BD4E /* LoginView.swift in Sources */,
 				06E4FAD32BC862CB00C7BD4E /* ContentView.swift in Sources */,
 				06E4FAD12BC862CB00C7BD4E /* CultivosUrbanosApp.swift in Sources */,
+				06E4FAFF2BC86DC700C7BD4E /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
